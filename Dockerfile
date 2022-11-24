@@ -8,7 +8,7 @@ RUN  apt-get -y update && \
      apt-get -y install cowsay fortune joe mc wget && \
      echo "alias d='ls -la --color'" >> /root/.bashrc && \
      # links are not directly accessible from web page anymore; analysed via browser web tools
-     wget -O tserver.zip "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1436.zip" && \
+     wget -O tserver.zip "https://terraria.org/api/download/pc-dedicated-server/terraria-server-1449.zip" && \
      unzip tserver.zip && \
      rm tserver.zip && \
      rm -rf /1436/Mac && \
